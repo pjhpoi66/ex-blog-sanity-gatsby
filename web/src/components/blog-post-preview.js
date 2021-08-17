@@ -27,6 +27,7 @@ function BlogPostPreview(props) {
         )}
       </div>
       <div className={styles.text}>
+        <h1>{props.testString}</h1>
         <h3 className={cn(responsiveTitle3, styles.title)}>{props.title}</h3>
         {props._rawExcerpt && (
           <div className={styles.excerpt}>

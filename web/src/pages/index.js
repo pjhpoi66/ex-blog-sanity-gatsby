@@ -49,6 +49,7 @@ export const query = graphql`
         node {
           id
           publishedAt
+          testString
           mainImage {
             ...SanityImage
             alt

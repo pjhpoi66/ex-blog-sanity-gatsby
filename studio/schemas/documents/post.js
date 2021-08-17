@@ -12,6 +12,11 @@ export default {
       description: "Titles should be catchy, descriptive, and not too long",
     },
     {
+      name: "testString",
+      type: "string",
+      title: "TEST String",
+    },
+    {
       name: "slug",
       type: "slug",
       title: "Slug",
